@@ -1,0 +1,60 @@
+#bg{
+	
+	margin-top:10px;
+	
+}
+
+#dropdown{
+	
+	width:50%;
+	display:inline-block;
+	margin-left:21%;
+	margin-bottom:2%;
+
+}
+
+
+#button{
+	
+	display:inline-block;
+	
+}
+
+
+#records{
+	
+ margin:0 auto;
+
+}
+
+#load{
+	
+	height:400px;
+	margin:0 auto;
+	width:600px;
+	
+}
+
+
+#space{
+	margin-top:10px;
+	height:350px; 
+	
+	
+}
+
+#image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+
+@media only screen and (max-width: 800px) {
+	#load{
+		
+		width:100%;
+		
+	}
+}
+	

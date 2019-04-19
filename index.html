@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mycss.css">
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="semantic/semantic.min.js"></script>
+  <script src="js/pollution-core.js"></script>
+</head>
+<body>
+<div class="ui container">
+	<section id="bg" class="ui blue raised segment">
+
+		<a class="ui blue ribbon label"><i class="cloud icon"></i>Pollution</a>
+		<h1 class="ui centered header">
+		   Welcome to Pollution.io
+		</h1>
+		<h3 class="ui centered header">
+		   Please select your country below
+		</h3>
+
+		<br>
+		<br>
+
+		<div id="dropdown">
+			<div class="ui fluid search selection dropdown" data-title="Invalid Option" >
+				<input type="hidden" name="country" required>
+				  
+				<i class="dropdown icon"></i>
+				<div class="default text">Select Country</div>
+				<div class="menu">
+				  
+					<div class="item" data-value="pl"><i class="pl flag"></i>Poland</div>
+					<div class="item" data-value="es"><i class="es flag"></i>Spain</div>
+					<div class="item" data-value="de"><i class="de flag"></i>Germany</div>
+					<div class="item" data-value="fr"><i class="fr flag"></i>France</div>
+
+				</div>
+
+			</div> 
+		</div>
+
+		<div id="button">
+
+			<button id="btnclick"  onclick="fetchData()" class="right attached blue ui button"><i class="search icon"></i>Search</button>
+			
+		</div>
+
+
+		<div id="records" class="ui styled accordion">
+		 
+		</div>
+
+		<div id="load" class="ui loading segment">
+
+		</div>
+
+		<div id="space">
+		 <img id="image" src="images/pollution.gif"
+		</div>
+
+
+	</section>
+</div>
+</body>
+</html>
